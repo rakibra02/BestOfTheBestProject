@@ -59,7 +59,7 @@ public class Play {
                     System.out.println("Your deck:");
                     printPlayerDeck(playerDeck.showCards());
                     System.out.print("Make a selection (-1 to draw): ");
-                    
+
                     int selection = input.nextInt();
 
                     // Player wants to pass
