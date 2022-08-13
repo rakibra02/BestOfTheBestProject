@@ -59,6 +59,7 @@ public class Play {
                     System.out.println("Your deck:");
                     printPlayerDeck(playerDeck.showCards());
                     System.out.print("Make a selection (-1 to draw): ");
+                    
                     int selection = input.nextInt();
 
                     // Player wants to pass
@@ -101,8 +102,6 @@ public class Play {
                                 break;
                             }
                         }
-                        //
-
                         // This would be false in the case of skip or reverse
                         boolean done = player.play(computerDeck, currentCard, deck);
 
@@ -179,5 +178,4 @@ public class Play {
             i++;
         }
     }
-
 }
